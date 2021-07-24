@@ -1,0 +1,288 @@
+/* Web Project by HTML5 and CSS3 */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    color: darkblue;
+}
+
+/* First Box */
+
+#FirstBox {
+    height: 340px;
+    width: 1200px;
+    background-color: wheat;
+    margin: 0 auto;
+}
+
+.BoxOne , .BoxTwo , .BoxThree {
+    height: 250px;
+    width: 300px;
+    /* background-color: blue; */
+    float: left;
+    margin: 40px 30px 25px 30px;
+    border-radius: 5px;
+}
+
+.BoxOne {
+    margin-left: 90px;
+}
+
+#BoxOneImg {
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#BoxOneImg:hover {
+    transform: scale(1.4,1.4);
+    transition: transform -5s;
+    border-radius: 5px;
+}
+
+/* Box Two */
+
+.SecBoxOne , .SecBoxTwo , .SecBoxThree {
+    height: 250px;
+    width: 300px;
+    float: left;
+    margin: 40px 30px 25px 30px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.SecBoxOne {
+    margin-left: 90px;
+}
+
+#BoxTwoImg {
+    height: 250px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#BoxTwoImg:hover {
+    transform: scale(2,2);
+    transition: transform 3s;
+    border-radius: 5px;
+}
+
+/* Third Box */
+/* Portion One */
+
+.ThirdBox {
+    position: absolute;
+    background-color: black;
+    height: 300px;
+    width: 350px;
+    margin-left: 30px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.ThirdBox .ImgBox , .DetailsBox {
+    height: 300px;
+    width: 350px;
+    position: absolute;
+    transition: .5s;
+}
+
+.ThirdBox .ImgBox {
+    top: 0;
+    left: 0;
+}
+
+.ThirdBox:hover .ImgBox {
+    top: 0;
+    left: -350px;
+}
+
+.ThirdBox .ImgBox .AliImg {
+    height: 300px;
+    width: 350px;
+}
+
+/* Details Box */
+
+.ThirdBox .DetailsBox {
+    background-color: black;
+    top: 0;
+    left: 350px;
+}
+
+.ThirdBox:hover .DetailsBox {
+    top: 0;
+    left: 0px;
+}
+
+.DetailsBox h2 {
+    color:  white;
+    text-align: center;
+    border-bottom: 2px solid white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.DetailsBox p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px 10px 10px 30px;
+    font-weight: bold;
+}
+
+/* Portion Two */
+
+.ThirdBoxPtII {
+    position: absolute;
+    background-color: darkblue;
+    height: 300px;
+    width: 350px;
+    margin-left: 425px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.ThirdBoxPtII .ImgBoxPtII , .DetailsBoxPtII {
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    transition: .5s;
+}
+
+.ThirdBoxPtII .ImgBoxPtII {
+    left: 0;
+    top: 0;
+}
+
+.ThirdBoxPtII:hover .ImgBoxPtII {
+    left: 0;
+    top: -300px;
+}
+
+.ThirdBoxPtII .ImgBoxPtII .JohnCena {
+    height: 300px;
+    width: 350px;
+}
+
+/* Details Box Pt.II */
+
+.ThirdBoxPtII .DetailsBoxPtII {
+    background-color: darkblue;
+    left: 0;
+    top: 300px;
+}
+
+.ThirdBoxPtII:hover .DetailsBoxPtII {
+    left: 0;
+    top: 0px;
+}
+
+.DetailsBoxPtII h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.DetailsBoxPtII p {
+    color: white;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 10px 10px 40px;
+}
+
+/* Last Portion */
+
+.LastBox {
+    position: absolute;
+    background-color: red;
+    height: 300px;
+    width: 350px;
+    margin-left: 820px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+
+.LastBox .LastImgBox , .LastDetailsBox {
+    position: absolute;
+    height: 300px;
+    width: 350px;
+    transition: .5s;
+}
+
+.LastBox .LastImgBox {
+    top: 0;
+    right: 0;
+}
+
+.LastBox:hover .LastImgBox {
+    top: 0;
+    right: -350px;
+}
+
+.LastBox .LastImgBox .UnderTaker {
+    height: 300px;
+    width: 350px;
+}
+
+/* Last Details Box */
+
+.LastBox .LastDetailsBox {
+    background-color: red;
+    top: 0;
+    right: 350px;
+}
+
+.LastBox:hover .LastDetailsBox {
+    top: 0;
+    right: 0px;
+}
+
+.LastDetailsBox h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    font-style: unset;
+    text-decoration: underline;
+    border-bottom: 2px solid black;
+}
+
+.LastDetailsBox p {
+    color: black;
+    font-weight: bold;
+    padding: 10px 10px 10px 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Footer */
+
+#Footer {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+/* Web-Project Completed Successfully */

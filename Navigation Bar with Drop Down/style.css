@@ -1,0 +1,70 @@
+/* Nabvigation Bar with Drop Down Menu */
+
+body {
+    background-image: url("Images/Cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+#NavBar_Container {
+    width: 1150px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#NavBar_Container ul {
+    list-style-type: none;
+}
+
+#NavBar_Container ul li {
+    background-color: darkblue;
+    border: 1px solid white;
+    border-radius: 8px;
+    height: 50px;
+    line-height: 50px;
+    width: 200px;
+    text-align: center;
+    float: left;
+    position: relative;
+    margin-left: 2px;
+}
+
+.MyStyle {
+    margin-left: 60px;
+}
+
+#NavBar_Container ul li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+}
+
+#NavBar_Container ul li a:hover {
+    color: black;
+    background-color: yellow;
+    text-decoration: underline;
+    border-radius: 8px;
+}
+
+#NavBar_Container ul ul {
+    position: absolute;
+    display: none;
+}
+
+#NavBar_Container ul li:hover > ul {
+    display: block;
+}
+
+#NavBar_Container ul ul ul {
+    margin-left: 200px;
+    top: 0;
+}
+
+/* Completed Successfully */

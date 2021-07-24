@@ -1,0 +1,37 @@
+/* CSS3 Animation Task 01 */
+
+body {
+    margin: 0;
+    padding: 0;
+    animation-name: blinker;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 230px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@keyframes blinker {
+    0% {
+        color: red;
+        background: yellow;
+        font-size: 20px;
+    }
+
+    25% {
+        color: white;
+        background-color: black;
+        font-size: 25px;
+    }
+
+    50% {
+        color: darkblue;
+        background-color: blueviolet;
+        font-weight: bold;
+        text-decoration: underline;
+        font-size: 30px;
+    }
+}

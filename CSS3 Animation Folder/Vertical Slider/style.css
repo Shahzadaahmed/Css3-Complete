@@ -1,0 +1,84 @@
+/* Vertical Image-Slider */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 50px;
+}
+
+#MainBox {
+    height: 400px;
+    width: 1000px;
+    overflow: hidden;
+    margin: 0 auto;
+    border: 6px double black;
+}
+
+#SliderBox {
+    position: relative;
+    height: 2000px;
+    animation-name: VerticalSlider;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+img {
+    height: 400px;
+    width: 1000px;
+}
+
+@keyframes VerticalSlider {
+    0% {
+        top: 0px;
+    }
+
+    16% {
+        top: 0px;
+    }
+
+    20% {
+        top: -400px;
+    }
+
+    36% {
+        top: -400px;
+    }
+
+    40% {
+        top: -800px;
+    }
+
+    56% {
+        top: -800px;
+    }
+
+    60% {
+        top: -1200px;
+    }
+
+    76% {
+        top: -1200px;
+    }
+
+    80% {
+        top: -1600px;
+    }
+
+    96% {
+        top: -1600px;
+    }
+
+    100% {
+        top: -2000px;
+    }
+}
+
+/* Code Completed Successfully */

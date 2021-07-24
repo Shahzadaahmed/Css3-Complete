@@ -1,0 +1,84 @@
+/* Image Slider using CSS3 */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 60px;
+}
+
+#MainBox {
+    width: 800px;
+    overflow: hidden;
+    border: 6px double black;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+#SliderBox {
+    position: relative;
+    width: 4000px;
+    animation-name: MySlider;
+    animation-duration: 25s;
+    animation-iteration-count: infinite;
+}
+
+img {
+    height: 300px;
+    width: 800px;
+    float: left;
+}
+
+@keyframes MySlider {
+    0% {
+        left: 0px;
+    }
+
+    16% {
+        left: 0px;
+    }
+
+    20% {
+        left: -800px;
+    }
+
+    36% {
+        left: -800px;
+    }
+
+    40% {
+        left: -1600px;
+    }
+
+    56% {
+        left: -1600px;
+    }
+
+    60% {
+        left: -2400px;
+    }
+
+    76% {
+        left: -2400px;
+    }
+
+    80% {
+        left: -3200px;
+    }
+
+    96% {
+        left: -3200px;
+    }
+
+    100% {
+        left: -4000px;
+    }
+}
+
+/* Code completed Successfully */
